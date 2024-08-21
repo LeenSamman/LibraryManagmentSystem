@@ -39,6 +39,9 @@ Functional requirments for the system
                             - the book should be returned on time
                             - the user may be late to return the book so for every day late a 1 $ fine will 
                                   be set to the user to pay.
+- user can return the book : need to return it on time
+- user can display the books he/she is late to return
+- user can display the books he/she is borrowing now
 
 Acknowledgements
 This project was developed as part of a Python course. Special thanks to Eng. Omar Alhory for supervision and guidance.
