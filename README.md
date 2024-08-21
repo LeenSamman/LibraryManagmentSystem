@@ -31,13 +31,13 @@ Functional requirments for the system
 - admin can display all borrowed books and by who
 - admin can display all reservations for books
 - user can borrow a book :
-                            we need to search for the book
-                            the book may not be exist
-                            the book may be exist but all the copies of the book are borrowed by someone
-                            if the book is borrowed by someone the user may want to reserve the book
-                            if the book is available the user should specify a day to return the book
-                            the book should be returned on time
-                            the user may be late to return the book so for every day late a 1 $ fine will 
+                            - we need to search for the book
+                            - the book may not be exist
+                            - the book may be exist but all the copies of the book are borrowed by someone
+                            - if the book is borrowed by someone the user may want to reserve the book
+                            - if the book is available the user should specify a day to return the book
+                            - the book should be returned on time
+                            - the user may be late to return the book so for every day late a 1 $ fine will 
                                   be set to the user to pay.
 
 Acknowledgements
