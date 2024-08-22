@@ -44,6 +44,6 @@ Admin is a user that can borrow a book with some more functions and privileges
 
 
 
-Acknowledgements
+# Acknowledgement
 This project was developed as part of a Python course. Special thanks to Eng. Omar Alhory for supervision and guidance.
 
