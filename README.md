@@ -38,6 +38,7 @@ Admin is a user that can borrow a book with some more functions and privileges
 - display_my_overdue_books : a function that enable the user to display books he/she is late to return .
 - view_borrowed_books : a function that enable the user to display books he/she borrowing now .
 - reserve_book : a function to enable user to reserve a book if not available yet by passing the book title and author.
+- update_queue_positions : a function called by reserve_book function .To handle multiple users that are reserving the book.
 - cancel_reservation : a function to enable user to cancel reservation if no longer wanting the book by passing the book title and author.
 - display_user_details : a function to display user details .
 
