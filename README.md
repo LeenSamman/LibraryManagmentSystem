@@ -1,5 +1,5 @@
 # Library_Managment_System
-A python based project that support OOP concepts . it is a real world example that handle
+A python based project that support OOP concepts . It is a real world example that handle
 book managment , user managment , borrowing and returning , reservations , and log all transactions .
 There is 2 kind of users in this system each have some privileges depending on their roles (regular user , admin).
 
