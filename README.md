@@ -6,8 +6,8 @@ There is 2 kind of users in this system each have some privileges depending on t
 
 
 # Project Structure
-- data.py -> The libraries and some users and books are added to the library (book_df) in this file.
-- users.py -> The user specific operations and functionalities available to regular users and admin as admin is considered a user.
+- data.py -> The libraries. Some users and books are added to the library (book_df) in this file.
+- users.py -> The user specific operations and functionalities , available to regular users and admins as an admin is considered a user.
 - Admin.py -> The Admin specific operations and functionalities.
 - TestCases.ipynb -> As much as possible of test cases that the system function.
 - FullCode.ipynb -> The full code in Jupyter notebook format to be github user-friendly.
