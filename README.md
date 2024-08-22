@@ -3,7 +3,9 @@ A python based project that support OOP concepts . it is a real world example th
 book managment , user managment , borrowing and returning , reservations , and log all transactions .
 There is 2 kind of users in this system each have some privileges depending on their roles (regular user , admin).
 
-# Project_Structure
+
+
+# Project Structure
 - data.py -> The libraries and some users and books are added to the library (book_df) in this file.
 - users.py -> The user specific operations and functionalities available to regular users and admin as admin is considered a user.
 - Admin.py -> The Admin specific operations and functionalities.
@@ -12,7 +14,9 @@ There is 2 kind of users in this system each have some privileges depending on t
 - FunctionalRequirments.pdf -> Functional requirments for the project in details.
 
 
-#Admin Functions
+
+
+# Admin Functions
 Admin is a user that can borrow a book with some more functions and privileges 
 - add_book: a function for admin to add a book by passing the book title and author.
 - delete_book_record : a function for admin to delete the book completely by passing the book title and author.
@@ -26,7 +30,8 @@ Admin is a user that can borrow a book with some more functions and privileges
   All these dataframes should be private only to admins but they are not in this project.
 
 
-#User Functions
+
+# User Functions
 - _update_global_overdue_books :  a afunction that is automatically called during functions like borrow_book, return_book to update overdue books and apply fines.
 - borrow_book : a function for user to borrow a book by passing book title and author name and how many days he/she want to borrow the book.
 - return_book : a function for user to borrow a book by passing book title and author name .
